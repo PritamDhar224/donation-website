@@ -1,0 +1,34 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center {
+    padding-left: 29%;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.bit-left {
+    padding-left: 23%;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.orange-color {
+    color: orangered;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 15px, 40px;
+    border-radius: 7px;
+}
