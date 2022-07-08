@@ -72,5 +72,18 @@ body {
 }
 
 .place-adjust {
-    padding-left: 40%;
+    padding-left: 41%;
+}
+
+.another-placing {
+    padding-left: 10%;
+}
+
+.food-background {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+
+
+
+
 }
