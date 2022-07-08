@@ -1,11 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    color: whitesmoke;
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    font-weight: 900;
+    color: black;
 }
 
 .center {
@@ -20,15 +17,60 @@ body {
     font-size: 60px;
 }
 
+.slight-left {
+
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .orange-color {
     color: orangered;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
     color: white;
     font-weight: 700;
-    padding: 15px, 40px;
+    padding-left: 41%;
+
+}
+
+.this-area {
+    background-image: linear-gradient(orange, tomato);
     border-radius: 7px;
+}
+
+.background-area {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.mid-center {
+    padding-left: 36%;
+}
+
+.small-size {
+    font-size: large;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: rgba(0, 0, 0, 0.372);
+}
+
+.text-placing {
+    padding-left: 20%;
+}
+
+.deco-ration {
+    display: flex;
+    gap: 10%;
+    padding-left: 20%;
+    color: rgba(0, 0, 0, 0.436);
+}
+
+.place-adjust {
+    padding-left: 40%;
 }
