@@ -50,7 +50,7 @@ body {
 }
 
 .mid-center {
-    padding-left: 36%;
+    text-align: center;
 }
 
 .small-size {
@@ -79,11 +79,68 @@ body {
     padding-left: 10%;
 }
 
-.food-background {
-    background-image: url(icons/food.png);
-    background-repeat: no-repeat;
+.food {
+    background-color: rgba(207, 250, 250, 0.256);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 
+}
 
+.shelter {
+    background-color: rgb(254, 245, 253);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 
+.education {
+    background-color: rgb(250, 239, 219);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.font {
+    font-size: large;
+}
+
+.slight-change {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.372);
+}
+
+.family-need {
+    display: flex;
+    padding: 3% 3%;
+    gap: 2%;
+}
+
+.contribute {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.live-depend {
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.survive {
+    display: flex;
 
 }
