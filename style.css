@@ -71,6 +71,18 @@ body {
     color: rgba(0, 0, 0, 0.436);
 }
 
+.extra-color {
+    background-color: rgb(248, 218, 208);
+    width: 70px;
+    height: 70px;
+    color: orangered;
+    padding-left: 2%;
+
+
+
+
+}
+
 .place-adjust {
     padding-left: 41%;
 }
@@ -127,20 +139,29 @@ body {
 
 .live-depend {
     display: flex;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    gap: 4%;
+
 
 }
 
 .half-width {
     width: 50%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+
+}
+
+.half-width img {
+    width: 100%;
 }
 
 .survive {
     display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 4%;
+
+
 
 }
