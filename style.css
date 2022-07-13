@@ -38,6 +38,12 @@ body {
 .this-area {
     background-image: linear-gradient(orange, tomato);
     border-radius: 7px;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+
 }
 
 .background-area {
@@ -68,23 +74,55 @@ body {
     display: flex;
     gap: 10%;
     padding-left: 20%;
+    padding-right: 20%;
     color: rgba(0, 0, 0, 0.436);
 }
 
-.extra-color {
+.aqua-color {
+    background-color: rgba(237, 235, 235, 0.372);
+    width: 70px;
+    height: 70px;
+    color: rgba(28, 28, 28, 0.372);
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 23px;
+    padding-top: 22px;
+
+}
+
+#extra-color {
     background-color: rgb(248, 218, 208);
     width: 70px;
     height: 70px;
     color: orangered;
     padding-left: 2%;
-
-
-
-
+    padding-right: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 23px;
+    padding-top: 22px;
 }
 
 .place-adjust {
     padding-left: 41%;
+
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid rgb(128, 127, 127);
+    width: 60%;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .another-placing {
@@ -161,7 +199,76 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     gap: 4%;
+}
+
+.subscription {
+    background-color: rgb(254, 249, 237);
+    background-position: center;
+    display: flex;
+    width: 60%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 6%;
+    margin: 60px auto;
 
 
 
+}
+
+#email {
+    box-shadow: 5px 5px 200px;
+    border: none;
+    width: 25%;
+    height: 20px;
+    padding-left: 2%;
+    padding-bottom: 22px;
+
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+    color: rgba(0, 0, 0, 0.372);
+    background-color: rgba(95, 95, 95, 0.372);
+
+    font-size: large;
+
+}
+
+#subscribe {
+    margin-left: -65px;
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+
+}
+
+.sub-area {
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 7px;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+
+.sub-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding-left: 40%;
+}
+
+.foot {
+    background-color: black;
+    background-position: cover;
+    color: orangered;
+    text-align: center;
+    font-style: italic;
+}
+
+.extra-small {
+    color: whitesmoke;
+    font-size: small;
+    padding-bottom: 3%;
 }
